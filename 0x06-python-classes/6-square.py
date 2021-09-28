@@ -55,4 +55,5 @@ class Square:
                not all(el >= 0 for el in position):
 
             raise TypeError('position must be a tuple of 2 positive integers')
+
         self.__position = position
